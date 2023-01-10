@@ -1,36 +1,43 @@
-## **Tipo de fonte:**
+<h1 align="center"> Login Form CampIn </h1>
 
-font-family: Poppins 
+<p align="center">
+  Projeto criado a partir do template de desafio da RocketSeat
+</p>
 
-font Weight: 400, 500 e 600
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-font-family: Roboto
+<br>
 
-Font Weight: 400 e 500
+<p align="center">
+  <img alt="LoginForm" src="#" width="100%">
+</p>
 
-:root {
-  --text-base: #afb6c2;
-  --text-title: #d4ccb6;
-  --background: #191816;
-  --form-background: #24221f;
-  --primary-color: #ffc632;
-}
+## 🚀 Tecnologias
 
-## Mobile first
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-## ordem das fontes
+- [React](https://reactjs.org/)
+- [React Hook Form](https://react-hook-form.com/)
+- [TypeScript](https://typescriptlang.org/)
+- [Yup](https://github.com/jquense/yup)
+- [Vite](https://vitejs.dev/)
 
-- logo: Poppins
-- h1: Poppins
-- subtitulo: Roboto
-- label: Poppins
-- placeholder: Roboto
-- checkbox: Roboto
-- forgot password: Poppins
-- submit e esqueci a senha: Poppins
+## 💻 Projeto
 
-# TODO
-- personalizar checkbox - FEITO
-- mudar cor do icone ao focar no input - FEITO
-- programar a versão desktop - FEITO
-- adicionar validação aos forms com react-hook-form + yup
+Login Form CampIn inicialmente é um desafio apenas de HTML e CSS que foi adaptado para React e adicionado features de validação listadas abaixo.
+
+## 🔖 Features:
+
+- [X] Validação de email e senha utilizando Yup
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+Feito com ♥ by Davi :wave: 

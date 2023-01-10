@@ -13,15 +13,14 @@ import * as yup from "yup"
 
 const schema = yup.object({
   email: yup.string().email('E-mail deverá ser um e-mail válido').required('Campo obrigatório!'),
-  password: yup.string().min(8, 'No mínimo 8 caracteres').max(16, 'Máximo de 16 caracteres').required('Campo obrigatório!'),
-  /* rememberMe: yup.bool().oneOf([true]).optional() */
+  password: yup.string().min(8, 'No mínimo 8 caracteres').max(16, 'Máximo de 16 caracteres').required('Campo obrigatório!')
 }).required()
 
 export function Login() {
   const [isMailFocused, setIsMailFocused] = useState(false)
   const [isPassFocused, setIsPassFocused] = useState(false)
 
-  const { register, watch, handleSubmit, formState: { errors, isValid } } = useForm<IFormInputs>({
+  const { register, handleSubmit, formState: { errors, isValid } } = useForm<IFormInputs>({
     resolver: yupResolver(schema),
     mode: 'onBlur',
     reValidateMode: 'onChange'
